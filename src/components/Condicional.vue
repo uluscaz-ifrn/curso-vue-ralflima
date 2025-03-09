@@ -5,6 +5,7 @@ const exibir = ref (true);
 let media = 8
 </script>
 <template>
+    <h1>Condicionais</h1>
     <h1 v-if="exibir">{{ texto }}</h1>
     <button @click="exibir = !exibir">Click</button>
     <p v-if="media >= 7">Aprovado(a)</p>
